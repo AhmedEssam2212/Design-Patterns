@@ -1,6 +1,6 @@
 package factory.factorymethod;
 
-public class BalancedFactory implements AnimalFactory{
+public class BalancedAnimalFactory implements AnimalFactory{
     @Override
     public Animal crateAnimal() {
         return null;
