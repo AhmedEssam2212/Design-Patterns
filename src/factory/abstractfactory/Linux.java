@@ -10,23 +10,16 @@ public class Linux extends AbstractOS {
             alert = new SoundAlert();
 
         }
-        else
-        {
-            alert = new VibrationAlert();
-        }
+
         return alert;
     }
 
     @Override
     public Button createButton() {
-        if(false)
-        {
-            button = new BoldButton();
-
-        }
-        else
+        if(true)
         {
             button = new FlatButton();
+
         }
         return button;
     }

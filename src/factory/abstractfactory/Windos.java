@@ -7,27 +7,21 @@ public class Windos extends AbstractOS {
     public Alert createAlert() {
         if(true)
         {
-            alert = new SoundAlert();
+            alert = new VibrationAlert();
 
         }
-        else
-        {
-            alert = new VibrationAlert();
-        }
+
         return alert;
     }
 
     @Override
     public Button createButton() {
-        if(false)
+        if(true)
         {
             button = new BoldButton();
 
         }
-        else
-        {
-            button = new FlatButton();
-        }
+
         return button;
     }
 }
