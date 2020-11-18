@@ -1,6 +1,6 @@
 package factory.abstractfactory;
 
-public class Windos extends AbstractOS {
+public class Windows extends AbstractOS {
     Alert alert;
     Button button;
     @Override
